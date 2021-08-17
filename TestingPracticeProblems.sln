@@ -20,6 +20,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven", "OddEven\OddEven.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven_Tests", "OddEven_Tests\OddEven_Tests.csproj", "{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Password Verifier", "Password Verifier", "{B4084103-3A5C-40DC-A921-CAE79DBAD4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordVerifier", "PasswordVerifier\PasswordVerifier.csproj", "{90CF13D8-63D2-49C3-B209-BB211473B103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordVerifier_Tests", "PasswordVerifier_Tests\PasswordVerifier_Tests.csproj", "{074C209B-3DC9-401A-A95E-E96201E2EEDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +48,14 @@ Global
 		{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CF13D8-63D2-49C3-B209-BB211473B103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF13D8-63D2-49C3-B209-BB211473B103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF13D8-63D2-49C3-B209-BB211473B103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF13D8-63D2-49C3-B209-BB211473B103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +65,8 @@ Global
 		{D5A34FA8-97D4-41A2-8860-C34D4E0225CD} = {C18ADCDC-0854-48E9-A9B9-BA5884FB5CCC}
 		{CE913F14-76DB-494A-8F3E-B2EEECD1B4F0} = {547CBF53-15B2-4736-9BE1-F3634BDE5BF7}
 		{0CD5A97C-71DB-47B2-8D51-E37BD83F8532} = {547CBF53-15B2-4736-9BE1-F3634BDE5BF7}
+		{90CF13D8-63D2-49C3-B209-BB211473B103} = {B4084103-3A5C-40DC-A921-CAE79DBAD4B0}
+		{074C209B-3DC9-401A-A95E-E96201E2EEDA} = {B4084103-3A5C-40DC-A921-CAE79DBAD4B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30433226-0232-42DF-ABB7-D74702FE82C5}
