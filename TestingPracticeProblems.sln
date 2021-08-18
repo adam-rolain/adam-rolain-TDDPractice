@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31409.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata", "DiamondKata\DiamondKata.csproj", "{354A6DA0-7B52-4784-9C9A-E3442A354EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata", "DiamondKata\DiamondKata.csproj", "{354A6DA0-7B52-4784-9C9A-E3442A354EEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diamond Kata", "Diamond Kata", "{C18ADCDC-0854-48E9-A9B9-BA5884FB5CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata_Tests", "DiamondKata_Tests\DiamondKata_Tests.csproj", "{D5A34FA8-97D4-41A2-8860-C34D4E0225CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata_Tests", "DiamondKata_Tests\DiamondKata_Tests.csproj", "{D5A34FA8-97D4-41A2-8860-C34D4E0225CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A713004D-1808-4B4C-8D68-9AE532481882}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,15 +16,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Odd Even", "Odd Even", "{547CBF53-15B2-4736-9BE1-F3634BDE5BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven", "OddEven\OddEven.csproj", "{CE913F14-76DB-494A-8F3E-B2EEECD1B4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddEven", "OddEven\OddEven.csproj", "{CE913F14-76DB-494A-8F3E-B2EEECD1B4F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven_Tests", "OddEven_Tests\OddEven_Tests.csproj", "{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddEven_Tests", "OddEven_Tests\OddEven_Tests.csproj", "{0CD5A97C-71DB-47B2-8D51-E37BD83F8532}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Password Verifier", "Password Verifier", "{B4084103-3A5C-40DC-A921-CAE79DBAD4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordVerifier", "PasswordVerifier\PasswordVerifier.csproj", "{90CF13D8-63D2-49C3-B209-BB211473B103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordVerifier", "PasswordVerifier\PasswordVerifier.csproj", "{90CF13D8-63D2-49C3-B209-BB211473B103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordVerifier_Tests", "PasswordVerifier_Tests\PasswordVerifier_Tests.csproj", "{074C209B-3DC9-401A-A95E-E96201E2EEDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordVerifier_Tests", "PasswordVerifier_Tests\PasswordVerifier_Tests.csproj", "{074C209B-3DC9-401A-A95E-E96201E2EEDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Number To English", "Number To English", "{9FD27927-4BD9-472E-8BC3-A8D29109F17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToEnglish", "NumberToEnglish\NumberToEnglish.csproj", "{04EBE810-292D-441A-8A94-B0945A07C4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToEnglish_Tests", "NumberToEnglish_Tests\NumberToEnglish_Tests.csproj", "{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +62,14 @@ Global
 		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074C209B-3DC9-401A-A95E-E96201E2EEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EBE810-292D-441A-8A94-B0945A07C4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EBE810-292D-441A-8A94-B0945A07C4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EBE810-292D-441A-8A94-B0945A07C4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EBE810-292D-441A-8A94-B0945A07C4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +81,8 @@ Global
 		{0CD5A97C-71DB-47B2-8D51-E37BD83F8532} = {547CBF53-15B2-4736-9BE1-F3634BDE5BF7}
 		{90CF13D8-63D2-49C3-B209-BB211473B103} = {B4084103-3A5C-40DC-A921-CAE79DBAD4B0}
 		{074C209B-3DC9-401A-A95E-E96201E2EEDA} = {B4084103-3A5C-40DC-A921-CAE79DBAD4B0}
+		{04EBE810-292D-441A-8A94-B0945A07C4A9} = {9FD27927-4BD9-472E-8BC3-A8D29109F17D}
+		{4FB1D0F6-3F25-4BF3-A550-F80329E0F74F} = {9FD27927-4BD9-472E-8BC3-A8D29109F17D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30433226-0232-42DF-ABB7-D74702FE82C5}
